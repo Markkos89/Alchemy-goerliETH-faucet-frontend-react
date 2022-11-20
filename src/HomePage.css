@@ -1,15 +1,13 @@
-
-body{
-    background: linear-gradient(0.25turn, rgb(16, 199, 255), #8826ff);
-    color: white;
+body {
+  background: linear-gradient(0.25turn, rgb(16, 199, 255), #8826ff);
+  color: white;
 }
 
-#need-metamask{
+#need-metamask {
   color: red;
   background-color: black;
   text-align: center;
 }
-
 
 .App {
   text-align: center;
@@ -21,7 +19,6 @@ body{
   top: 40%;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  
 }
 
 .App-header {
@@ -37,21 +34,21 @@ body{
   color: #61dafb;
 }
 
-.app-title{
+.app-title {
   position: absolute;
   width: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
-  bottom: 15%; 
+  bottom: 15%;
 }
 
-.app-title-connected{
+.app-title-connected {
   position: absolute;
   color: #363636;
   width: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
-  bottom: 18%; 
+  bottom: 18%;
 }
 
 .connect-bottom {
@@ -66,7 +63,7 @@ body{
   background-color: #8826ff;
 }
 
-.geteth-bar{
+.geteth-bar {
   top: 10%;
   margin-top: auto;
   margin-bottom: auto;
@@ -78,7 +75,7 @@ body{
   border-radius: 25px;
 }
 
-.imput-wallet-address{
+.imput-wallet-address {
   border-radius: 2px;
   outline: none;
   padding: 20px;
@@ -90,7 +87,7 @@ body{
   transform: translate(-50%, -50%);
 }
 
-.Send-eth-button{
+.Send-eth-button {
   background-color: #363636;
   color: rgb(255, 255, 255);
   font-size: 20px;
